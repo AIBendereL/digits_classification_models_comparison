@@ -44,7 +44,7 @@ All models are trained using the same set of hyperparameters.
 
 ```
 |― CNN/ 
-    |― cnn.py                       # CNN model class 
+    |― cnn.py                       # CNN model class architecture
 |― Mnist_digits_dataset/
     |― README.md                    # auto-download Mnist Digits dataset
 |― Models/
@@ -52,7 +52,7 @@ All models are trained using the same set of hyperparameters.
     |― cnn_mnist_digits_50.pth      # CNN result
     |― nn_mnist_digits_50.pth       # NN result
 |— NN/
-    |― neural_network.py            # NN model class
+    |― neural_network.py            # NN model class architecture
 |— README.md
 |— cnn_mnist_test.py                # CNN test script
 |— cnn_mnist_train.py               # CNN train script
