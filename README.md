@@ -12,7 +12,7 @@ In the end, I get the train results of these models and make a comparison table.
 
 ## Model architecture
 
-VGG16 model architecture is provided by Pytorch.
+VGG16 model architecture is provided by Pytorch. I change the last fully connected layer output to 10 nodes to match with the digits classification problem.
 
 NN, CNN model is built by me. And the architecture is **COMPLETELY RANDOM**.
 
@@ -65,7 +65,7 @@ All models are trained using the same set of hyperparameters.
 
 ### Run scripts
 
-Please download pre-trained VGG16 result and weights through the link in Models/README.md before running the scripts.
+For train and test with VGG16, please download pre-trained VGG16 weights and result through the link in Models/README.md before running the scripts.
 
 #### Train
 
