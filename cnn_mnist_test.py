@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 
     #Model:
-    CNN_MODEL_WEIGHTS_PATH = "Models/cnn_mnist_digits_v0.pth"
+    CNN_MODEL_WEIGHTS_PATH = "Models/cnn_mnist_digits_50.pth"
     
     model = cnn.CNN_v0()
     model.load_state_dict(torch.load(CNN_MODEL_WEIGHTS_PATH))

@@ -162,7 +162,7 @@ if __name__ == "__main__":
     
     
     #Train:
-    NN_MNIST_DIGITS_PATH = "Models/nn_mnist_digits_40.pth"
+    NN_MNIST_DIGITS_PATH = "Models/nn_mnist_digits_50.pth"
     
     loss_func = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr = learning_rate)

@@ -112,7 +112,7 @@ if __name__ == "__main__":
     
 
     #Model:
-    MODEL_WEIGHTS_MNIST_DIGITS_PATH = "Models/vgg16_weights_mnist_digits.pth"
+    MODEL_WEIGHTS_MNIST_DIGITS_PATH = "Models/vgg16_mnist_digits_50.pth"
     
     model = vgg16()
     model.classifier[6] = nn.Linear(4096, 10, bias=True)

@@ -11,6 +11,10 @@ from NN import neural_network
 
 import time
 
+import torchvision.transforms.functional as tf
+from PIL import Image, ImageOps
+import matplotlib.pyplot as plt
+
 
 #Hyperparameter:
 
@@ -112,7 +116,7 @@ if __name__ == "__main__":
     
     
     #Model:
-    MODEL_WEIGHTS_PATH = "Models/nn_mnist_digits_v0.pth"
+    MODEL_WEIGHTS_PATH = "Models/nn_mnist_digits_50.pth"
 
     model = neural_network.NN_v0()
     model.load_state_dict(torch.load(MODEL_WEIGHTS_PATH))
@@ -143,7 +147,7 @@ if __name__ == "__main__":
     
     ###
     
-    
+             
     
     
     

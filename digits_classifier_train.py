@@ -167,7 +167,7 @@ if __name__ == "__main__":
     
     
     #Train:
-    MODEL_WEIGHTS_MNIST_DIGITS_PATH = "Models/vgg16_mnist_digits_40.pth"
+    MODEL_WEIGHTS_MNIST_DIGITS_PATH = "Models/vgg16_mnist_digits_50.pth"
     
     loss_func = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr = learning_rate)
